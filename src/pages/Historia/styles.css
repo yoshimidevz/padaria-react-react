@@ -1,0 +1,27 @@
+.contentHist{
+    position: relative; /* Necessário para posicionar o fundo */
+    display: flex;
+    justify-content:center;
+    align-items: center; /* Alinha o texto verticalmente */
+    width: 100%;
+    font-family: "Playwrite GB S", cursive;
+    background-image: url(/img/doces-embrulhados.png);
+    background-size: 23px;
+    gap: 50px;
+}
+.histImg img{
+    height: 500px;
+    width: 400px;
+}
+.contentHist p{
+    font-size: small;
+    margin-right: 50px;
+    text-align: justify;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+}
+.histImg{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 100%;
+}

@@ -1,0 +1,48 @@
+.contentContact{
+    display: flex;
+    justify-content:space-between;
+    align-items: flex-start; /* Alinha o texto verticalmente */
+    width: 100%;
+    font-family: "Playwrite GB S", cursive;
+    background-image: url(/img/doces-embrulhados.png);
+    background-size: 23px;
+    height: auto;
+    min-height: 500px;
+    box-sizing: border-box;
+
+}
+#contato {
+    display: flex;
+    flex-direction: column;           
+    gap: 15px;                       
+    width: 48%;                      
+}
+
+/* Mapa */
+.map-responsive {
+    width: 48%;                      
+    overflow: hidden;
+    padding-bottom: 56.25%;          
+    position: relative;
+    height: 0;
+}
+
+/* Estilo do iframe do mapa */
+.map-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+@media (max-width: 768px) {
+    .contentContact {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #contato, .map-responsive {
+        width: 100%;  /* Faz os itens ocuparem 100% da largura em telas pequenas */
+        margin-bottom: 20px;  /* Espaço entre os elementos */
+    }
+}

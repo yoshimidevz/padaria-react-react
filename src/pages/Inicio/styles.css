@@ -1,0 +1,12 @@
+.contentHome{ 
+    position: relative; 
+    display: flex;
+    align-items: center; /* Alinha o texto verticalmente */
+    width: 100%;
+    height: 800px;
+}
+.contentHome img{
+    height: 100%;
+    width: 35%;
+}
+/* home */
